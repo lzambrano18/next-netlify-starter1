@@ -10,3 +10,9 @@
   to = "https://api.staging.newstand.com/data/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/auto_login"
+  to = "https://api.staging.newstand.com/auto_link"
+  status = 200
+  force = true
