@@ -4,3 +4,9 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "/data/*"
+  to = "https://api.staging.newstand.com/data/:splat"
+  status = 200
+  force = true
