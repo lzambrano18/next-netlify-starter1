@@ -12,7 +12,7 @@
   force = true
 
 [[redirects]]
-  from = "/auto_login"
-  to = "https://api.staging.newstand.com/auto_link"
+  from = "/auto_login/*"
+  to = "https://api.staging.newstand.com/auto_login/:splat"
   status = 200
   force = true
