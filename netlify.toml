@@ -10,15 +10,3 @@
   to = "https://api.newstand.com/data/:splat"
   status = 200
   force = true
-
-[[redirects]]
-  from = "/store/*"
-  to = "https://api.newstand.com/store/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/auto_login/*"
-  to = "https://api.newstand.com/auto_login/:splat"
-  status = 200
-  force = true
