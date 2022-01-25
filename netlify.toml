@@ -7,6 +7,54 @@
 
 [[redirects]]
   from = "/data/*"
-  to = "https://api.newstand.com/data/:splat"
+  to = "https://api.staging.newstand.com/data/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/store/*"
+  to = "https://api.staging.newstand.com/store/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/auto_login/*"
+  to = "https://api.staging.newstand.com/auto_login/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/enrollment/*"
+  to = "https://api.staging.newstand.com/enrollment/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/open_section/*"
+  to = "https://api.staging.newstand.com/open_section/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/coffee-machine/*"
+  to = "https://api.staging.newstand.com/coffee-machine/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/campaign-event/*"
+  to = "https://api.staging.newstand.com/campaign-event/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/cards/*"
+  to = "https://api.staging.newstand.com/cards/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/forgot-password-desktop/*"
+  to = "https://api.staging.newstand.com/forgot-password-desktop/:splat"
   status = 200
   force = true
